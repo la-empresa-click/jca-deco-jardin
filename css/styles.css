@@ -1,14 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: Montserrat;
 }
 
-header {
-    background-color: red;
+/* ************ HEADER ************ */
+ul {
+    list-style-type: none;
+    /*background-color: red;
+    border: 1px solid black;*/
+    padding: 5px; /*Depues modificarlo*/
+    overflow: hidden;
+    font-size: 15px;
 }
 
-div {
-    background-color: aqua;
+li {
+    /*background-color: yellow;
+    border: 1px solid black;*/
+    float: right;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li input {
+    font-size: 15px;
+    height: 45px;
+    width: 250px;
+    padding: 15px;
+    color: black;
+    border: 1.5px solid #c8c7c7;
+}
+
+ul li input:focus {
+    border: 1.5px solid #555;
+}
+
+.list-logo {
+    float: left;
+}
+
+/* Cuando paso el mouse por cada hipervinculo se subraya */
+li a:hover {
+    text-decoration: underline;
+}
+
+/* ************ CARROUSEL DE IMAGENES ************ */
+.images {
+    background-color: yellowgreen;
 }
 
 footer {
